@@ -8,12 +8,13 @@ export default class AddContact extends Component {
         <form className="ui form">
           <div className="feild">
             <label>Name</label>
-            <input type="" name="" />
+            <input type="text" name="name" placeholder="name" />
           </div>
           <div className="feild">
             <label>Email</label>
-            <input type="" name="" />
+            <input type="text" name="email" placeholder="email" />
           </div>
+          <button className="ui button blue">Add</button>
         </form>
       </div>
     );
