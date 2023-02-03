@@ -1,14 +1,14 @@
 import "./App.css";
 import Header from "./Header";
-// import AddContact from "./AddContact";
+import AddContact from "./AddContact";
 // import ContactList from "./AddContact";
 
 function App() {
   return (
     <div>
       <Header />
-      {/*<AddContact />
-  <ContactList />*/}
+      <AddContact />
+      {/*<ContactList />*/}
     </div>
   );
 }
