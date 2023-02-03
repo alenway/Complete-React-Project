@@ -12,6 +12,9 @@ export default class AddContact extends Component {
       alert("all the fields are madatory!");
       return;
     }
+
+    this.props.addContactHandler(this.state);
+    this.setState({ name: "", email: "" });
   };
   render() {
     return (
