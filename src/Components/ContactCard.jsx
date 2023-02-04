@@ -7,7 +7,6 @@ export default function ContactCard(props) {
       <div className="content">
         <div className="header">{name}</div>
         <div>{email}</div>
-        <div>{id}</div>
       </div>
       <i
         className="trash alternate outline icon"
