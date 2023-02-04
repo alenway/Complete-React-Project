@@ -33,10 +33,11 @@ function App() {
 
   return (
     <div className="ui container">
+      <Header />
       <Router>
         <Routes>
-          <Route path="/header" element={<Header />} />
-          <Route path="/add" element={<ContactList />} />
+          <Route exact path="/" element={<ContactList />} />
+          <Route exact path="/add" element={<AddContact />} />
         </Routes>
         {/*<AddContact addContactHandler={addContactHandler} />
   <ContactList contacts={contacts} getContactId={removeContactHandler} />*/}
