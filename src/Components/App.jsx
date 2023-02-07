@@ -6,6 +6,7 @@ import AddContact from "./AddContact";
 import ContactList from "./ContactList";
 
 function App() {
+  //project workings
   const LOCAL_STORAGE_KEY = "contacts";
   const [contacts, setContacts] = useState([]);
 
